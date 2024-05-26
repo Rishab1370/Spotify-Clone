@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #outer{
+            height:120px;
+            width: 95%;
+            position: fixed;
+            overflow-y: auto;
+            padding: 10px 0 0 15px;
+            color: #fff;
+            /* border: 1px solid #fff; */
+            background-color: rgb(18,18,18);
+        }
+        .toprow{
+            height: 100%;
+            width: 90%;
+            text-align: left;
+            padding: 15px 0 0 15px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            /* box-shadow: 0 2px 4px rgb(36,36,36); */
+            background-color: rgb(36,36,36);
+            /* border: 1px solid #fff; */
+        }
+        .btn{
+            padding: 5px 10px 5px 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            background-color: #fff;
+            color: black;
+        }
+        .btn:hover{
+            padding: 7px 12px 7px 12px;
+            font-size: 17px;
+        }
+        .downrow{
+            height: 120%;
+            width: 90%;
+            padding: 15px 0 0 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            /* box-shadow: 0 2px 4px rgb(36,36,36); */
+            background-color: rgb(36,36,36);
+            /* border: 1px solid #fff; */
+        }
+        .btn1{
+            padding: 6px 11px 6px 11px;
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            margin-top: 15px;
+            font-size: 15px;
+            background-color: #fff;
+            color: black;
+        }
+        .btn1:hover{
+            padding: 7px 12px 7px 12px;
+            font-size: 16px;
+        }
+        ::-webkit-scrollbar{
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track{
+             background-color:rgb(18,18,18);
+             border-radius: 0 0 10px 0;
+        }
+        ::-webkit-scrollbar-thumb{
+             background: rgb(58, 58, 58);
+        }
+    </style>
+</head>
+<body>
+     <div id="outer">
+          <div class="toprow">
+              <span style="color: #fff;font-size: 20px;font-weight: bolder;">Create your first playlist</span><br>
+               <p style="color: #fff;font-size: 16px; margin-top: 10px;">It's easy, we'll help you</p>
+               <button class="btn">Create playlist</button>
+          </div>
+          <div class="downrow">
+            <span style="color: #fff;font-size:18px;font-weight: bolder;">Let's fine some podcasts to follow</span><br>
+            <p style="color: #fff;font-size: 15px; margin-top: 8px;">We'll keep you updated on new episodes</p>
+            <button class="btn1">Browse podcasts</button>
+          </div>
+     </div>
+</body>
+</html>

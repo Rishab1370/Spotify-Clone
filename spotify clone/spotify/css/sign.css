@@ -1,0 +1,184 @@
+.outer{
+    height:100%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    background-color: rgb(18,18,18);
+}
+.logo{
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    /* border: 1px solid red ; */
+}
+.logo span{
+    color: #fff;
+    font-size: 30px; 
+}
+#logoname{
+    display: inline-block; 
+    font-size: 25px;
+    margin-top: 5px;
+}
+.signupstart{
+    height:710px ;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+.head{
+    height: 130px;
+    width: 30%;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #fff;
+    margin: 10px 0 0 35%;
+    font-size: 40px;
+    font-weight: bolder;
+    /* border:1px solid #fff; */
+}
+.emailsection{
+    height: 190px;
+    width: 30%;
+    margin-left:  35%;
+    /* border: 1px solid #fff; */
+}
+#mail{
+    height: 50px;
+    width: 90%;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 3px;
+    background-color: rgb(18,18,18);
+    border: 1px solid #fff;
+}
+#btnxt{
+    height: 50px;
+    width: 90%;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(30,215,96);
+}
+.parents{
+      height: 30px;
+      width: 30%;
+      margin-left: 35%;
+      /* border: 1px solid #fff; */
+}
+.child1{
+    height: 1px;
+    width: 41%;
+    margin-top: 15px;
+    background-color: #cecdcd;
+    border: 1px solid #cecdcd;
+    float: left;
+}
+.child3{
+    height: 1px;
+    width: 41%;
+    margin-top: 15px;
+    background-color: #cecdcd;
+    border: 1px solid #cecdcd;
+    float: left;
+}
+.child2{
+    height: 20px;
+    width: 10%;
+    color: #fff;
+    text-align: center;  
+    /* border: 1px solid #fff; */
+    float: left;
+}
+.socialmedia{
+    height: 350px;
+    width: 30%;
+    padding: 10px 0 0 0;
+    /* border: 1px solid #fff; */
+    margin-left: 35%;
+}
+.google{
+    height: 60px;
+    width: 93%;
+    border-radius: 50px;
+    margin-top: 8px;
+    border: 1px solid #747474;
+}
+.google:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.facebook{
+    height: 60px;
+    width: 93%;
+    border-radius: 50px;
+    margin-top: 8px;
+    border: 1px solid #767676;
+}
+.facebook:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.apple{
+    height: 60px;
+    width: 93%;
+    border-radius: 50px;
+    margin-top:8px;
+    border: 1px solid #757575;
+}
+.apple:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.l1{
+    height: 60px;
+    width: 20%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.l2{
+    height: 60px;
+    width: 80%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.l3{
+    height: 60px;
+    width: 20%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.l4{
+    height: 60px;
+    width: 80%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.l5{
+    height: 60px;
+    width: 20%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.l6{
+    height: 60px;
+    width: 80%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    float: left;
+}
+.horizon{
+    height: 1px;
+    width: 93%;
+    background-color: #fff;
+    margin-top: 25px;
+    border: 1px solid #fff;
+}
